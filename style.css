@@ -1,0 +1,338 @@
+body {
+  margin: 0;
+  font-family: "Montagu Slab";
+}
+
+header {
+  background-color: #636c79;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-top,
+.header-nav,
+.header-bot,
+.main-2-bot,
+.main-1-stat,
+.main-3,
+.main-4,
+.teams,
+.footer-bot,
+.main-5-top {
+  display: flex;
+  flex-direction: row;
+  margin: auto 7%;
+}
+
+.header-nav {
+  list-style: none;
+}
+
+.main-1,
+.main-2,
+.main-5 {
+  display: flex;
+  flex-direction: column;
+  margin: auto 7%;
+}
+
+.header-top {
+  margin: 1% 5%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 3%;
+}
+
+.header-nav {
+  margin: auto 3%;
+  width: 50%;
+  margin-left: 25%;
+  justify-content: space-between;
+  color: rgb(240, 229, 229);
+  font-weight: 400;
+}
+
+.lets-talk {
+  border: solid rgb(77, 71, 71);
+  color: rgb(240, 229, 229);
+  font-family: "Montagu Slab";
+  background: transparent;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 10px 20px;
+}
+
+.header-bot {
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+.header-left {
+  width: 1500px;
+  height: 650px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.header-img {
+  width: 1500px;
+  height: 650px;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  color: #fff;
+  margin-top: 3%;
+}
+
+.header-head {
+  font-size: 50px;
+  margin-bottom: 5%;
+}
+
+.header-sub {
+  font-size: 18px;
+  line-height: 2;
+  margin-bottom: 8%;
+}
+
+.header-btns {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 10px solid white;
+}
+
+.email-btn {
+  border: none;
+  width: 70%;
+  background: transparent;
+  font-family: "montagu slab";
+  font-size: 18px;
+  text-align: left;
+  padding: 10px 30px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.email-btn img {
+  margin-right: 5%;
+}
+
+.talk {
+  border: none;
+  background: #8bb7a2;
+  font-size: 18px;
+  font-family: "montagu slab";
+  padding: 10px 30px;
+  color: white;
+}
+
+.main-1-head h2,
+.stat-item h4,
+.main-2-head,
+.main-3-subHead,
+.main-4-subHead,
+.main-2-subHead,
+.main-5-head {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.main-1-head h2,
+.main-2-head {
+  margin: auto;
+  margin-top: 7%;
+  text-align: center;
+  width: 80%;
+}
+
+.main-1-stat {
+  justify-content: space-between;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-item h4 {
+  margin-bottom: 0;
+}
+
+.stat-item p {
+  font-size: 15px;
+  color: rgb(47, 45, 45);
+  margin-top: 12%;
+}
+
+.main-1-bot {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.main-1-img {
+  width: 1244px;
+  height: 790px;
+}
+
+.main-2-head {
+  width: 45%;
+}
+
+.main-2-bot,
+.main-3,
+.main-4 {
+  margin-top: 7%;
+}
+
+.main-2-left,
+.main-3-right,
+.main-4-left {
+  width: 55%;
+}
+
+.main-2-bot,
+.main-3,
+.main-4 {
+  justify-content: space-between;
+}
+
+.main-2-bot {
+  margin: 0;
+  margin-top: 5%;
+}
+.main-2-right,
+.main-3-left,
+.main-4-right {
+  width: 55%;
+  height: 650px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.main-3-left,
+.main-2-left,
+.main-4-left {
+  margin-right: 5%;
+}
+.main-2-img,
+.main-3-img,
+.main-4-img {
+  width: 1000px;
+  height: 650px;
+}
+
+.main-2-right {
+  justify-content: right;
+}
+
+.main-3-img {
+  width: 900px;
+  height: 870px;
+}
+
+.main-2-subHead,
+.main-4-subHead,
+.main-3-subHead {
+  margin-top: 20%;
+}
+
+.main-2-sub,
+.main-3-sub,
+.main-4-sub {
+  margin-bottom: 8%;
+  line-height: 1.8;
+  margin-top: 3%;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(47, 45, 45);
+}
+
+.main-5-top {
+  align-items: center;
+  margin: auto;
+}
+
+.main-5-sub {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8;
+  color: rgb(47, 45, 45);
+}
+
+.teams {
+  margin: 0;
+  justify-content: space-between;
+}
+
+.team-person {
+  width: 390px;
+}
+.person-img,
+.person-name,
+.about-person {
+  width: 390px;
+}
+
+.person-name {
+  font-size: 20px;
+}
+.about-person {
+  font-weight: 400;
+  color: rgb(47, 45, 45);
+}
+
+.main-5-bot {
+  margin: 3% auto;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background: #10181d;
+  color: white;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: solid blue; */
+  align-items: center;
+  margin: 5% 7%;
+  align-items: center;
+}
+
+.rule {
+  margin: auto 7%;
+  color: #636c79;
+}
+
+.footer-bot {
+  margin: 3% 7%;
+  justify-content: space-between;
+  /* border: solid black; */
+}
+
+.sec-head {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.sec-contents {
+  font-weight: 400;
+  color: rgb(99, 104, 109);
+}
